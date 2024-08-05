@@ -47,3 +47,12 @@ h6 {
   font-style: normal;
   color: var(--Very-Dark-Cyan);
 }
+
+.growTogether {
+  background-image: url(../public/bg-section-top-desktop-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 50vw;
+  min-height: 50vh;
+  max-height: 100vh;
+}
