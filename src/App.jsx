@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./Components/Nav";
 import Header from "./Components/Header";
 import GrowTogether from "./Components/GrowTogether";
+import FlowingConversations from "./Components/FlowingConversations";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Nav />
       <Header />
       <GrowTogether />
+      <FlowingConversations />
     </div>
   );
 }

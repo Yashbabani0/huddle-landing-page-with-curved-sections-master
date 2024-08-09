@@ -19,11 +19,11 @@ export default function GrowTogether() {
         <div className="img md:float-right md:w-[50%]">
           <img src={GrowTogetherImg} alt="" className="w-[60%] m-auto" />
         </div>
-        <div className="content px-[1.5em] leading-7 mt-[2em] md:float-left md:w-[50%] md:flex md:items-center md:justify-center md:flex-col md:h-[20em] md:text-left">
-          <h2 className="mb-[1em] tracking-wider text-xl text-veryDarkCyan">
+        <div className="content px-[1.5em] leading-7 mt-[2em] md:float-left md:w-[50%] md:flex md:items-left md:justify-center md:flex-col md:h-[20em] md:text-left">
+          <h2 className="mb-[1em] tracking-wider text-xl text-veryDarkCyan md:text-left md:ps-20 md:text-3xl md:mb-[0.6em]">
             Grow Together
           </h2>
-          <p className="text-veryDarkCyan md:ps-20">
+          <p className="text-veryDarkCyan md:ps-20 md:tracking-wider">
             Generate meaningful discussions with your audience and build a
             strong, loyal community. Think of the insightful conversations you
             miss out on with a feedback form.
