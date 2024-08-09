@@ -4,6 +4,7 @@ import Nav from "./Components/Nav";
 import Header from "./Components/Header";
 import GrowTogether from "./Components/GrowTogether";
 import FlowingConversations from "./Components/FlowingConversations";
+import YourUser from "./Components/YourUser";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Header />
       <GrowTogether />
       <FlowingConversations />
+      <YourUser />
     </div>
   );
 }
