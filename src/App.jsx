@@ -6,6 +6,7 @@ import GrowTogether from "./Components/GrowTogether";
 import FlowingConversations from "./Components/FlowingConversations";
 import YourUser from "./Components/YourUser";
 import ReadyToBuild from "./Components/ReadyToBuild";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <FlowingConversations />
       <YourUser />
       <ReadyToBuild />
+      <Footer />
     </div>
   );
 }
